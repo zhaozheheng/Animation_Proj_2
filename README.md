@@ -16,12 +16,19 @@ specify properties of a particular joint. Not all joints will specify all proper
 default values should be used. Here is a list of the keywords and their associated data.
 
 offset x y z (joint offset vector)
+
 boxmin x y z (min corner of box to draw)
+
 boxmax x y z (max corner of box to draw)
+
 rotxlimit min max (x rotation DOF limits)
+
 rotylimit min max (y rotation DOF limits)
+
 rotzlimit min max (z rotation DOF limits)
+
 pose x y z (values to pose DOFs)
+
 balljoint name { } (child joint)
 
 The ‘offset’ is the constant positional offset to add to the local joint transformation. It represents
